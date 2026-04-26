@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100vh;
+}
+
+header,
+footer {
+    background-color: rgb(98, 106, 216);
+    padding: 50px;
+    text-align: center;
+    display: grid;
+   
+   
+}
+
+.main-body {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10px;
+    flex:1;
+   
+}
+.left {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    gap: 10px;
+}
+
+
+
+.main{
+    background-color: yellow;
+}
+.menu{
+    background-color: red;
+}
+.aside{
+    background-color: blue;
+}
+aside{
+    background-color: green;
+}
+
+
+</style>
+
+<body>
+    <header>Header</header>
+    <div class="main-body">
+
+        <div class="left">
+            <div class="menu">menu</div>
+            <div class="aside">Aside</div>
+        </div>
+
+        <div class="main">main</div>
+
+        <aside>As2</aside>
+
+    </div>
+
+    <footer>Footer</footer>
+</body>
+
+</html>
