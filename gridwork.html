@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        
+        
+    
+    
+    }
+    .section{
+        display: grid;
+        grid-template-rows: 1fr 2fr 1fr;
+        background-color: rgb(49, 230, 13);
+        padding: 10px;
+        
+        gap: 10px;
+    }
+
+
+
+.header{
+    background-color: rgb(248, 133, 133);
+    text-align: center;
+    height: 60px;
+   
+}
+.middlepath{
+     display: grid;
+     grid-template-columns: 1fr 2fr;
+     gap: 10px;
+     
+    
+}
+.right{
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    gap: 10px;
+    }
+.left{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    gap: 10px;
+    
+}
+
+.extrasidebar{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 10px;
+    
+    
+    
+   
+}
+.extraPost{
+    background-color: rgb(248, 133, 248);
+   
+    
+}
+.hero{
+    background-color: rgb(204, 56, 204);
+    
+    
+}
+.main{
+    background-color: rgb(133, 248, 133);
+   
+}
+.sidebar{
+    background-color: rgb(248, 248, 133);
+    
+}
+.extra{
+    background-color: rgb(133, 248, 248);
+  
+    
+}
+.relatedImg{
+    background-color: rgb(248, 133, 248);
+   
+    
+}
+.footer{
+    background-color: rgb(98, 106, 216);
+    height: 60px;
+   
+  
+}
+   
+</style>
+
+<body>
+
+    <div class="section">
+       <div class="header">Header</div>
+
+       <div class="middlepath">
+        <div class="left">
+            <div class="hero">Hero</div>
+             <div class="main">Main Content</div>
+        </div>
+        <div class="right">
+             
+             <div class="sidebar">Sidebar</div>
+             <div class="extra">Extra</div>
+        </div>
+             
+        </div>
+
+       <div class="extrasidebar"> 
+                 
+              <div class="relatedImg">Related Image</div> 
+              <div class="extraPost">Extra Post</div>
+       </div>
+
+       <div class="footer">Footer</div>
+    </div>
+    
+</body>
+</html>
